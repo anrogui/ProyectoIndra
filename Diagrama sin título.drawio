@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
+  <diagram name="Página-1" id="5YyIOHB8EwDVM2NFG9C5">
+    <mxGraphModel dx="1195" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-27" value="Usuarios" style="shape=rectangle" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-28" value="Organizadores" style="shape=rectangle" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-29" value="Eventos" style="shape=rectangle" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-30" value="Categorias" style="shape=rectangle" vertex="1" parent="1">
+          <mxGeometry x="790" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-31" value="Ubicaciones" style="shape=rectangle" vertex="1" parent="1">
+          <mxGeometry x="350" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-33" value="Se inscribe" style="shape=rhombus" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-35" value="Organiza" style="shape=rhombus" vertex="1" parent="1">
+          <mxGeometry x="370" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-36" value="Pertenece" style="shape=rhombus" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-37" value="Se realiza" style="shape=rhombus" vertex="1" parent="1">
+          <mxGeometry x="370" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-38" value="1,N" edge="1" parent="1" source="6_keMoMxPkjTKbvmRgMs-27" target="6_keMoMxPkjTKbvmRgMs-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-39" value="1,1" style="entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6_keMoMxPkjTKbvmRgMs-33" target="6_keMoMxPkjTKbvmRgMs-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="172.72727272727275" y="209.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-42" value="1,N" edge="1" parent="1" source="6_keMoMxPkjTKbvmRgMs-28" target="6_keMoMxPkjTKbvmRgMs-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-43" value="1,1" edge="1" parent="1" source="6_keMoMxPkjTKbvmRgMs-35" target="6_keMoMxPkjTKbvmRgMs-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-44" value="1,1" edge="1" parent="1" source="6_keMoMxPkjTKbvmRgMs-29" target="6_keMoMxPkjTKbvmRgMs-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-45" value="1,N" edge="1" parent="1" source="6_keMoMxPkjTKbvmRgMs-36" target="6_keMoMxPkjTKbvmRgMs-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-46" value="1,1" edge="1" parent="1" source="6_keMoMxPkjTKbvmRgMs-29" target="6_keMoMxPkjTKbvmRgMs-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_keMoMxPkjTKbvmRgMs-47" value="1,N" edge="1" parent="1" source="6_keMoMxPkjTKbvmRgMs-37" target="6_keMoMxPkjTKbvmRgMs-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
